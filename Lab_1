@@ -9,6 +9,7 @@ This lab will be fairly simple with the intention to make them more elaborate. E
 4. Which IP and port is the malicious executable communicating with?
 5. Are there any other weird processes found that can be associated with the malicious executable? And if so did they run.
 6. Give the chain of processes used by malicious executable. Ex. mal.exe ---> migrated.exe ---> other_exes.exe ran (Hint: Use ParentProcessGuids and ProcessGuids to chain them together)
-
+7. What executable was the malicious exe masquerading as?
+8. Submit hash of possible malicious executable to VirusTotal. What if anything did you learn from the submission.
 
 Happy Hunting!

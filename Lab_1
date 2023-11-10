@@ -1,11 +1,14 @@
 Lab 1 
 
-Scenario: Security has been allerted that this computer may have been possibly compromised. This lab will be fairly simple with the intention to make them more elaborate.
+Scenario: Security has been alerted that this computer may have been possibly compromised. We need to answer the below questions. 
+This lab will be fairly simple with the intention to make them more elaborate. Environment is also a little dirty as I was having a little trouble setting up.
 
 1. What is the malicious executable?
-2. Were any situational awareness commands run? If so what were they.
-3. Which IP is the malicious executable communicating with?
+2. What process did the malicious executable migrate to? 
+3. Were any situational awareness commands run? If so what were they.
+4. Which IP and port is the malicious executable communicating with?
+5. Are there any other weird processes found that can be associated with the malicious executable? And if so did they run.
+6. Give the chain of processes used by malicious executable. Ex. mal.exe ---> migrated.exe ---> other_exes.exe ran (Hint: Use ParentProcessGuids and ProcessGuids to chain them together)
 
-Scenario files will be available by subsrcibing to: https://marcusedmondson.substack.com/
 
 Happy Hunting!
